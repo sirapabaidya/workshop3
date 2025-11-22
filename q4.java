@@ -23,5 +23,13 @@ public class q4
     System.out.println("enter your gpa");
     String gpa= input.nextLine();
     System.out.println("student's gpa is " +gpa);
+    
+    int a=16;
+    int b=9;
+    System.out.println(a++ - ++a);
+    System.out.println(a);
+
+    System.out.println(b++ + b++);
+    System.out.println(b);
     }
 }
